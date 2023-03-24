@@ -44,5 +44,21 @@ flutter run
 # Folder Structure
 
 ```
-
+lib/
+┣ core/
+┃ ┣ configs/
+┃ ┃ ┗ configs.dart
+┃ ┣ exceptions/
+┃ ┣ services/
+┃ ┃ ┗ http/
+┃ ┗ utils/
+┃   ┣ callbacks.dart
+┃   ┗ extensions.dart
+┣ features/
+┃ ┗ weather_forecast/
+┃   ┣ models/
+┃   ┣ providers/
+┃   ┣ repository/
+┃   ┗ views/
+┗ main.dart
 ```

@@ -1,16 +1,48 @@
 # weather_week
 
-A new Flutter project.
+A simple weather app that lets you search weather forecast upto 5 days by city name.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+<div class="row">
+<img src = "./demo/image1.png" width=200></img>
+<img src = "./demo/image2.png" width=200></img>
+<img src = "./demo/image3.png" width=200></img>
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# How to use
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Step 1:
+
+Clone this repository
+
+```
+git clone git@github.com:sharmashashi/weather_week.git
+```
+
+## Step 2:
+
+Goto the project root and get the dependencies
+
+```
+cd weather_week && flutter pub get
+```
+
+## Step 3:
+
+Open .env file and replace `open_weather_api_key` value with your original [Open Weather API Key](https://api.openweathermap.org/)
+
+## Step 4:
+
+Run the project
+
+```
+flutter run
+```
+
+# Folder Structure
+
+```
+
+```
